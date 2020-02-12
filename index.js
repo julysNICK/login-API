@@ -20,4 +20,4 @@ app.use(express.json());
 //routes midleware
 app.use("/api/user", authRoutes);
 app.use("/api/posts", postRoute);
-app.listen(5050, () => console.log("servidoor rodando"));
+app.listen(5050, () => console.log("servidor rodando"));
